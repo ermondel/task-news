@@ -45,6 +45,7 @@ h1 {
 .page-header__logo {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   height: 150px;
   background: url('img/bg.jpg') no-repeat center top;
   border-bottom-left-radius: 4px;
@@ -56,7 +57,14 @@ h1 {
   color: white;
   margin: 0;
   text-align: center;
-  width: 100%;
+}
+
+.page-header__search {
+  border: none;
+  margin: 0;
+  background-color: white;
+  width: 250px;
+  padding: 5px 10px;
 }
 
 /* main nav */
@@ -217,6 +225,7 @@ h1 {
 /* news categories */
 
 .news-category {
+  width: 260px;
   margin-right: 25px;
 }
 
@@ -275,4 +284,40 @@ h1 {
 
 .news-category__author-link:hover {
   text-decoration: underline;
+}
+
+/* page footer */
+
+.page-footer {
+  background-color: #31313b;
+  /* color: #778899; */
+  color: white;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  padding: 15px 20px;
+  text-align: right;
+}
+
+.page-footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.page-footer a:hover {
+  text-decoration: underline;
+}
+
+.page-footer address {
+  font-style: normal;
+}
+
+.page-footer__info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.page-footer__sources {
+  margin: 0;
+  text-align: left;
 }
