@@ -8,12 +8,17 @@
   </head>
   <body>
     <div class="page">
-      <header class="page-header">
+      <header class="page-header" role="banner">
         <div class="page-header__logo">
           <h1 class="page-header__logo-text">News of science and IT</h1>
-          <input type="text" placeholder="Search" class="page-header__search" />
+          <input
+            type="text"
+            placeholder="Search"
+            class="page-header__search"
+            role="search"
+          />
         </div>
-        <nav class="main-nav">
+        <nav role="navigation" class="main-nav">
           <ul class="main-nav__list">
             <li class="main-nav__item">
               <a href="#" title="All topics">All topics</a>
@@ -49,14 +54,14 @@
         </nav>
       </header>
 
-      <main class="page-main">
+      <main class="page-main" role="main">
         <div class="news-special">
           <section class="important-news">
             <h2 class="important-news__header">Important news</h2>
 
-            <article class="important-news__item">
+            <article role="article" class="important-news__item">
               <figure class="important-news__item-figure">
-                <img src="img/virus.jpg" alt="Photo of laboratory" />
+                <img src="img/laboratory.jpg" alt="Photo of laboratory" />
               </figure>
               <div class="important-news__item-wrapper">
                 <h3 class="important-news__item-title">
@@ -82,7 +87,7 @@
               </div>
             </article>
 
-            <article class="important-news__item">
+            <article role="article" class="important-news__item">
               <figure class="important-news__item-figure">
                 <img src="img/npm.jpg" alt="NPM and GitHub logo" />
               </figure>
@@ -113,7 +118,7 @@
           <section class="latest-news">
             <h2 class="latest-news__header">Latest news</h2>
 
-            <article class="latest-news__item">
+            <article role="article" class="latest-news__item">
               <h3 class="latest-news__item-title">
                 <a href="#">
                   3D printing may help supply more essential coronavirus medical
@@ -128,7 +133,7 @@
               </div>
             </article>
 
-            <article class="latest-news__item">
+            <article role="article" class="latest-news__item">
               <h3 class="latest-news__item-title">
                 <a href="#">
                   5G: Your Next Big Upgrade
@@ -142,7 +147,7 @@
               </div>
             </article>
 
-            <article class="latest-news__item">
+            <article role="article" class="latest-news__item">
               <h3 class="latest-news__item-title">
                 <a href="#">
                   Blockchain decoded
@@ -156,7 +161,7 @@
               </div>
             </article>
 
-            <article class="latest-news__item">
+            <article role="article" class="latest-news__item">
               <h3 class="latest-news__item-title">
                 <a href="#">
                   Huawei shows off new laptop, speaker and tablet for Europe
@@ -170,7 +175,7 @@
               </div>
             </article>
 
-            <article class="latest-news__item">
+            <article role="article" class="latest-news__item">
               <h3 class="latest-news__item-title">
                 <a href="#">
                   Best graphics card for gamers and creatives for 2020
@@ -184,7 +189,7 @@
               </div>
             </article>
 
-            <article class="latest-news__item">
+            <article role="article" class="latest-news__item">
               <h3 class="latest-news__item-title">
                 <a href="#">
                   Even a weird hypernucleus confirms a fundamental symmetry of
@@ -199,7 +204,7 @@
               </div>
             </article>
 
-            <article class="latest-news__item">
+            <article role="article" class="latest-news__item">
               <h3 class="latest-news__item-title">
                 <a href="#">
                   The earliest known hominid interbreeding occurred 700,000
@@ -214,7 +219,7 @@
               </div>
             </article>
 
-            <article class="latest-news__item">
+            <article role="article" class="latest-news__item">
               <h3 class="latest-news__item-title">
                 <a href="#">
                   Upgrade to Windows 10 for free right now
@@ -228,7 +233,7 @@
               </div>
             </article>
 
-            <article class="latest-news__item">
+            <article role="article" class="latest-news__item">
               <h3 class="latest-news__item-title">
                 <a href="#">
                   How slime mold helped scientists map out the cosmic web
@@ -244,7 +249,7 @@
           </section>
         </div>
 
-        <aside class="page-aside">
+        <aside role="complementary" class="page-aside">
           <a href="#">
             <img src="img/partners.jpg" alt="Join to HardwareCon 2020" />
           </a>
@@ -254,7 +259,7 @@
           <section class="news-category">
             <h2 class="news-category__header"><a href="#">Life</a></h2>
 
-            <article class="news-category__item">
+            <article role="article" class="news-category__item">
               <h3 class="news-category__item-title">
                 <a href="#">
                   This is the first deep-sea fish known to be a mouthbreeder
@@ -270,7 +275,7 @@
               </div>
             </article>
 
-            <article class="news-category__item">
+            <article role="article" class="news-category__item">
               <h3 class="news-category__item-title">
                 <a href="#">
                   A distant cousin of jellyfish may survive without working
@@ -285,7 +290,7 @@
               </div>
             </article>
 
-            <article class="news-category__item">
+            <article role="article" class="news-category__item">
               <h3 class="news-category__item-title">
                 <a href="#">
                   How African turquoise killifish press the pause button on
@@ -304,7 +309,7 @@
           <section class="news-category">
             <h2 class="news-category__header"><a href="#">Astronomy</a></h2>
 
-            <article class="news-category__item">
+            <article role="article" class="news-category__item">
               <h3 class="news-category__item-title">
                 <a href="#">
                   The star Betelgeuse might just be dusty, not about to explode
@@ -318,7 +323,7 @@
               </div>
             </article>
 
-            <article class="news-category__item">
+            <article role="article" class="news-category__item">
               <h3 class="news-category__item-title">
                 <a href="#">
                   Heavy metal may rain from the skies of planet WASP 76b
@@ -332,7 +337,7 @@
               </div>
             </article>
 
-            <article class="news-category__item">
+            <article role="article" class="news-category__item">
               <h3 class="news-category__item-title">
                 <a href="#">
                   Molecular oxygen has been spotted beyond the Milky Way for the
@@ -351,7 +356,7 @@
           <section class="news-category">
             <h2 class="news-category__header"><a href="#">Sci-Tech</a></h2>
 
-            <article class="news-category__item">
+            <article role="article" class="news-category__item">
               <h3 class="news-category__item-title">
                 <a href="#">
                   See how Mars cleans up the mess from an impact crater
@@ -367,7 +372,7 @@
               </div>
             </article>
 
-            <article class="news-category__item">
+            <article role="article" class="news-category__item">
               <h3 class="news-category__item-title">
                 <a href="#">
                   Facebook can now measure time by the microsecond
@@ -381,7 +386,7 @@
               </div>
             </article>
 
-            <article class="news-category__item">
+            <article role="article" class="news-category__item">
               <h3 class="news-category__item-title">
                 <a href="#">
                   Making the truly flexible electronics of the future with
@@ -402,7 +407,7 @@
           <section class="news-category">
             <h2 class="news-category__header"><a href="#">Internet</a></h2>
 
-            <article class="news-category__item">
+            <article role="article" class="news-category__item">
               <h3 class="news-category__item-title">
                 <a href="#">
                   Netflix to slow down streaming so internet doesn't overload
@@ -416,7 +421,7 @@
               </div>
             </article>
 
-            <article class="news-category__item">
+            <article role="article" class="news-category__item">
               <h3 class="news-category__item-title">
                 <a href="#">
                   5 ways to share files with your team while working from home
@@ -430,7 +435,7 @@
               </div>
             </article>
 
-            <article class="news-category__item">
+            <article role="article" class="news-category__item">
               <h3 class="news-category__item-title">
                 <a href="#">
                   This VPN built on blockchain could be the next step in privacy
@@ -450,7 +455,7 @@
         </div>
       </main>
 
-      <footer class="page-footer">
+      <footer role="contentinfo" class="page-footer">
         <div class="page-footer__info">
           <p class="page-footer__sources">
             Info from
