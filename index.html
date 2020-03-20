@@ -3,22 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <meta name="description" content="News of science and IT" />
+    <link rel="stylesheet" href="main.css" />
     <title>News of science and IT</title>
   </head>
   <body>
     <div class="page">
-      <header class="page-header" role="banner">
+      <header class="page-header">
         <div class="page-header__logo">
           <h1 class="page-header__logo-text">News of science and IT</h1>
           <input
             type="text"
             placeholder="Search"
             class="page-header__search"
-            role="search"
+            role="searchbox"
           />
         </div>
-        <nav role="navigation" class="main-nav">
+        <nav class="main-nav">
           <ul class="main-nav__list">
             <li class="main-nav__item">
               <a href="#" title="All topics">All topics</a>
@@ -54,12 +55,12 @@
         </nav>
       </header>
 
-      <main class="page-main" role="main">
+      <main class="page-main">
         <div class="news-special">
           <section class="important-news">
             <h2 class="important-news__header">Important news</h2>
 
-            <article role="article" class="important-news__item">
+            <article class="important-news__item">
               <figure class="important-news__item-figure">
                 <img src="img/laboratory.jpg" alt="Photo of laboratory" />
               </figure>
@@ -78,16 +79,21 @@
                 </p>
                 <div class="important-news__item-info">
                   by
-                  <a href="#" class="important-news__author-link"
-                    >Cecil Jordan</a
+                  <a
+                    href="#"
+                    class="important-news__author-link"
+                    rel="author"
+                    title="Cecil Jordan"
                   >
+                    Cecil Jordan
+                  </a>
                   &bull;
                   <time datetime="2020-03-19T12:12">March 19, 2020</time>
                 </div>
               </div>
             </article>
 
-            <article role="article" class="important-news__item">
+            <article class="important-news__item">
               <figure class="important-news__item-figure">
                 <img src="img/npm.jpg" alt="NPM and GitHub logo" />
               </figure>
@@ -105,9 +111,14 @@
                 </p>
                 <div class="important-news__item-info">
                   by
-                  <a href="#" class="important-news__author-link"
-                    >Willie Dixon</a
+                  <a
+                    href="#"
+                    class="important-news__author-link"
+                    rel="author"
+                    title="Willie Dixon"
                   >
+                    Willie Dixon
+                  </a>
                   &bull;
                   <time datetime="2020-03-18T12:12">March 18, 2020</time>
                 </div>
@@ -118,7 +129,7 @@
           <section class="latest-news">
             <h2 class="latest-news__header">Latest news</h2>
 
-            <article role="article" class="latest-news__item">
+            <article class="latest-news__item">
               <h3 class="latest-news__item-title">
                 <a href="#">
                   3D printing may help supply more essential coronavirus medical
@@ -127,13 +138,20 @@
               </h3>
               <div class="latest-news__item-info">
                 by
-                <a href="#" class="latest-news__author-link">Miriam Hansen</a>
+                <a
+                  href="#"
+                  class="latest-news__author-link"
+                  rel="author"
+                  title="Miriam Hansen"
+                >
+                  Miriam Hansen
+                </a>
                 &bull;
                 <time datetime="2020-03-19T12:12">March 19, 2020</time>
               </div>
             </article>
 
-            <article role="article" class="latest-news__item">
+            <article class="latest-news__item">
               <h3 class="latest-news__item-title">
                 <a href="#">
                   5G: Your Next Big Upgrade
@@ -141,13 +159,20 @@
               </h3>
               <div class="latest-news__item-info">
                 by
-                <a href="#" class="latest-news__author-link">Rhonda Mendoza</a>
+                <a
+                  href="#"
+                  class="latest-news__author-link"
+                  rel="author"
+                  title="Rhonda Mendoza"
+                >
+                  Rhonda Mendoza
+                </a>
                 &bull;
                 <time datetime="2020-03-18T12:12">March 18, 2020</time>
               </div>
             </article>
 
-            <article role="article" class="latest-news__item">
+            <article class="latest-news__item">
               <h3 class="latest-news__item-title">
                 <a href="#">
                   Blockchain decoded
@@ -155,13 +180,20 @@
               </h3>
               <div class="latest-news__item-info">
                 by
-                <a href="#" class="latest-news__author-link">Earl Fletcher</a>
+                <a
+                  href="#"
+                  class="latest-news__author-link"
+                  rel="author"
+                  title="Earl Fletcher"
+                >
+                  Earl Fletcher
+                </a>
                 &bull;
                 <time datetime="2020-03-17T12:12">March 17, 2020</time>
               </div>
             </article>
 
-            <article role="article" class="latest-news__item">
+            <article class="latest-news__item">
               <h3 class="latest-news__item-title">
                 <a href="#">
                   Huawei shows off new laptop, speaker and tablet for Europe
@@ -169,13 +201,20 @@
               </h3>
               <div class="latest-news__item-info">
                 by
-                <a href="#" class="latest-news__author-link">Zack Green</a>
+                <a
+                  href="#"
+                  class="latest-news__author-link"
+                  rel="author"
+                  title="Zack Green"
+                >
+                  Zack Green
+                </a>
                 &bull;
                 <time datetime="2020-03-16T12:12">March 16, 2020</time>
               </div>
             </article>
 
-            <article role="article" class="latest-news__item">
+            <article class="latest-news__item">
               <h3 class="latest-news__item-title">
                 <a href="#">
                   Best graphics card for gamers and creatives for 2020
@@ -183,13 +222,20 @@
               </h3>
               <div class="latest-news__item-info">
                 by
-                <a href="#" class="latest-news__author-link">Tom Bowman</a>
+                <a
+                  href="#"
+                  class="latest-news__author-link"
+                  rel="author"
+                  title="Tom Bowman"
+                >
+                  Tom Bowman
+                </a>
                 &bull;
                 <time datetime="2020-03-15T12:12">March 15, 2020</time>
               </div>
             </article>
 
-            <article role="article" class="latest-news__item">
+            <article class="latest-news__item">
               <h3 class="latest-news__item-title">
                 <a href="#">
                   Even a weird hypernucleus confirms a fundamental symmetry of
@@ -198,13 +244,20 @@
               </h3>
               <div class="latest-news__item-info">
                 by
-                <a href="#" class="latest-news__author-link">Connie King</a>
+                <a
+                  href="#"
+                  class="latest-news__author-link"
+                  rel="author"
+                  title="Connie King"
+                >
+                  Connie King
+                </a>
                 &bull;
                 <time datetime="2020-03-14T12:12">March 14, 2020</time>
               </div>
             </article>
 
-            <article role="article" class="latest-news__item">
+            <article class="latest-news__item">
               <h3 class="latest-news__item-title">
                 <a href="#">
                   The earliest known hominid interbreeding occurred 700,000
@@ -213,13 +266,20 @@
               </h3>
               <div class="latest-news__item-info">
                 by
-                <a href="#" class="latest-news__author-link">Miriam Hansen</a>
+                <a
+                  href="#"
+                  class="latest-news__author-link"
+                  rel="author"
+                  title="Miriam Hansen"
+                >
+                  Miriam Hansen
+                </a>
                 &bull;
                 <time datetime="2020-03-13T12:12">March 13, 2020</time>
               </div>
             </article>
 
-            <article role="article" class="latest-news__item">
+            <article class="latest-news__item">
               <h3 class="latest-news__item-title">
                 <a href="#">
                   Upgrade to Windows 10 for free right now
@@ -227,13 +287,20 @@
               </h3>
               <div class="latest-news__item-info">
                 by
-                <a href="#" class="latest-news__author-link">Rhonda Mendoza</a>
+                <a
+                  href="#"
+                  class="latest-news__author-link"
+                  rel="author"
+                  title="Rhonda Mendoza"
+                >
+                  Rhonda Mendoza
+                </a>
                 &bull;
                 <time datetime="2020-03-12T12:12">March 12, 2020</time>
               </div>
             </article>
 
-            <article role="article" class="latest-news__item">
+            <article class="latest-news__item">
               <h3 class="latest-news__item-title">
                 <a href="#">
                   How slime mold helped scientists map out the cosmic web
@@ -241,7 +308,14 @@
               </h3>
               <div class="latest-news__item-info">
                 by
-                <a href="#" class="latest-news__author-link">Earl Fletcher</a>
+                <a
+                  href="#"
+                  class="latest-news__author-link"
+                  rel="author"
+                  title="Earl Fletcher"
+                >
+                  Earl Fletcher
+                </a>
                 &bull;
                 <time datetime="2020-03-11T12:12">March 11, 2020</time>
               </div>
@@ -249,8 +323,8 @@
           </section>
         </div>
 
-        <aside role="complementary" class="page-aside">
-          <a href="#">
+        <aside class="page-aside">
+          <a href="#" rel="nofollow external">
             <img src="img/partners.jpg" alt="Join to HardwareCon 2020" />
           </a>
         </aside>
@@ -259,7 +333,7 @@
           <section class="news-category">
             <h2 class="news-category__header"><a href="#">Life</a></h2>
 
-            <article role="article" class="news-category__item">
+            <article class="news-category__item">
               <h3 class="news-category__item-title">
                 <a href="#">
                   This is the first deep-sea fish known to be a mouthbreeder
@@ -267,7 +341,12 @@
               </h3>
               <div class="news-category__item-info">
                 by
-                <a href="#" class="news-category__author-link">
+                <a
+                  href="#"
+                  class="news-category__author-link"
+                  rel="author"
+                  title="Gabriella Burke"
+                >
                   Gabriella Burke
                 </a>
                 &bull;
@@ -275,7 +354,7 @@
               </div>
             </article>
 
-            <article role="article" class="news-category__item">
+            <article class="news-category__item">
               <h3 class="news-category__item-title">
                 <a href="#">
                   A distant cousin of jellyfish may survive without working
@@ -284,13 +363,20 @@
               </h3>
               <div class="news-category__item-info">
                 by
-                <a href="#" class="news-category__author-link">Dora Mendoza</a>
+                <a
+                  href="#"
+                  class="news-category__author-link"
+                  rel="author"
+                  title="Dora Mendoza"
+                >
+                  Dora Mendoza
+                </a>
                 &bull;
                 <time datetime="2020-02-24T12:12">February 24, 2020</time>
               </div>
             </article>
 
-            <article role="article" class="news-category__item">
+            <article class="news-category__item">
               <h3 class="news-category__item-title">
                 <a href="#">
                   How African turquoise killifish press the pause button on
@@ -299,7 +385,14 @@
               </h3>
               <div class="news-category__item-info">
                 by
-                <a href="#" class="news-category__author-link">Chris Bradley</a>
+                <a
+                  href="#"
+                  class="news-category__author-link"
+                  rel="author"
+                  title="Chris Bradley"
+                >
+                  Chris Bradley
+                </a>
                 &bull;
                 <time datetime="2020-02-20T12:12">February 20, 2020</time>
               </div>
@@ -309,7 +402,7 @@
           <section class="news-category">
             <h2 class="news-category__header"><a href="#">Astronomy</a></h2>
 
-            <article role="article" class="news-category__item">
+            <article class="news-category__item">
               <h3 class="news-category__item-title">
                 <a href="#">
                   The star Betelgeuse might just be dusty, not about to explode
@@ -317,13 +410,20 @@
               </h3>
               <div class="news-category__item-info">
                 by
-                <a href="#" class="news-category__author-link">Derek Burton</a>
+                <a
+                  href="#"
+                  class="news-category__author-link"
+                  rel="author"
+                  title="Derek Burton"
+                >
+                  Derek Burton
+                </a>
                 &bull;
                 <time datetime="2020-03-12T12:12">March 12, 2020</time>
               </div>
             </article>
 
-            <article role="article" class="news-category__item">
+            <article class="news-category__item">
               <h3 class="news-category__item-title">
                 <a href="#">
                   Heavy metal may rain from the skies of planet WASP 76b
@@ -331,13 +431,20 @@
               </h3>
               <div class="news-category__item-info">
                 by
-                <a href="#" class="news-category__author-link">Eileen Fisher</a>
+                <a
+                  href="#"
+                  class="news-category__author-link"
+                  rel="author"
+                  title="Eileen Fisher"
+                >
+                  Eileen Fisher
+                </a>
                 &bull;
                 <time datetime="2020-03-11T12:12">March 11, 2020</time>
               </div>
             </article>
 
-            <article role="article" class="news-category__item">
+            <article class="news-category__item">
               <h3 class="news-category__item-title">
                 <a href="#">
                   Molecular oxygen has been spotted beyond the Milky Way for the
@@ -346,7 +453,14 @@
               </h3>
               <div class="news-category__item-info">
                 by
-                <a href="#" class="news-category__author-link">Edwin Dunn</a>
+                <a
+                  href="#"
+                  class="news-category__author-link"
+                  rel="author"
+                  title="Edwin Dunn"
+                >
+                  Edwin Dunn
+                </a>
                 &bull;
                 <time datetime="2020-02-18T12:12">February 18, 2020</time>
               </div>
@@ -356,7 +470,7 @@
           <section class="news-category">
             <h2 class="news-category__header"><a href="#">Sci-Tech</a></h2>
 
-            <article role="article" class="news-category__item">
+            <article class="news-category__item">
               <h3 class="news-category__item-title">
                 <a href="#">
                   See how Mars cleans up the mess from an impact crater
@@ -364,7 +478,12 @@
               </h3>
               <div class="news-category__item-info">
                 by
-                <a href="#" class="news-category__author-link">
+                <a
+                  href="#"
+                  class="news-category__author-link"
+                  rel="author"
+                  title="Frederick Peters"
+                >
                   Frederick Peters
                 </a>
                 &bull;
@@ -372,7 +491,7 @@
               </div>
             </article>
 
-            <article role="article" class="news-category__item">
+            <article class="news-category__item">
               <h3 class="news-category__item-title">
                 <a href="#">
                   Facebook can now measure time by the microsecond
@@ -380,13 +499,20 @@
               </h3>
               <div class="news-category__item-info">
                 by
-                <a href="#" class="news-category__author-link">Lydia Wilson</a>
+                <a
+                  href="#"
+                  class="news-category__author-link"
+                  rel="author"
+                  title="Lydia Wilson"
+                >
+                  Lydia Wilson
+                </a>
                 &bull;
                 <time datetime="2020-03-04T12:12">March 4, 2020</time>
               </div>
             </article>
 
-            <article role="article" class="news-category__item">
+            <article class="news-category__item">
               <h3 class="news-category__item-title">
                 <a href="#">
                   Making the truly flexible electronics of the future with
@@ -395,7 +521,12 @@
               </h3>
               <div class="news-category__item-info">
                 by
-                <a href="#" class="news-category__author-link">
+                <a
+                  href="#"
+                  class="news-category__author-link"
+                  rel="author"
+                  title="Christopher Pearson"
+                >
                   Christopher Pearson
                 </a>
                 &bull;
@@ -407,7 +538,7 @@
           <section class="news-category">
             <h2 class="news-category__header"><a href="#">Internet</a></h2>
 
-            <article role="article" class="news-category__item">
+            <article class="news-category__item">
               <h3 class="news-category__item-title">
                 <a href="#">
                   Netflix to slow down streaming so internet doesn't overload
@@ -415,13 +546,20 @@
               </h3>
               <div class="news-category__item-info">
                 by
-                <a href="#" class="news-category__author-link">Jorge Owens</a>
+                <a
+                  href="#"
+                  class="news-category__author-link"
+                  rel="author"
+                  title="Jorge Owens"
+                >
+                  Jorge Owens
+                </a>
                 &bull;
                 <time datetime="2020-02-26T12:12">February 26, 2020</time>
               </div>
             </article>
 
-            <article role="article" class="news-category__item">
+            <article class="news-category__item">
               <h3 class="news-category__item-title">
                 <a href="#">
                   5 ways to share files with your team while working from home
@@ -429,13 +567,20 @@
               </h3>
               <div class="news-category__item-info">
                 by
-                <a href="#" class="news-category__author-link">Javier Ellis</a>
+                <a
+                  href="#"
+                  class="news-category__author-link"
+                  rel="author"
+                  title="Javier Ellis"
+                >
+                  Javier Ellis
+                </a>
                 &bull;
                 <time datetime="2020-02-20T12:12">February 20, 2020</time>
               </div>
             </article>
 
-            <article role="article" class="news-category__item">
+            <article class="news-category__item">
               <h3 class="news-category__item-title">
                 <a href="#">
                   This VPN built on blockchain could be the next step in privacy
@@ -444,7 +589,12 @@
               </h3>
               <div class="news-category__item-info">
                 by
-                <a href="#" class="news-category__author-link">
+                <a
+                  href="#"
+                  class="news-category__author-link"
+                  rel="author"
+                  title="Vernon Barnett"
+                >
                   Vernon Barnett
                 </a>
                 &bull;
@@ -455,30 +605,38 @@
         </div>
       </main>
 
-      <footer role="contentinfo" class="page-footer">
+      <footer class="page-footer">
         <div class="page-footer__info">
           <p class="page-footer__sources">
-            Info from
+            News from
             <a
               href="https://www.sciencenews.org"
-              rel="nofollow"
+              rel="nofollow external"
               title="sciencenews.org"
             >
               sciencenews.org</a
             >,
-            <a href="https://www.cnet.com/news" rel="nofollow" title="cnet.com">
+            <a
+              href="https://www.cnet.com/news"
+              rel="nofollow external"
+              title="cnet.com"
+            >
               cnet.com
             </a>
             <br />
             users from
             <a
               href="https://randomuser.me"
-              rel="nofollow"
-              title="random user generator"
+              rel="nofollow external"
+              title="randomuser.me"
             >
-              random user generator</a
+              randomuser.me</a
             >, pictures from
-            <a href="https://unsplash.com" rel="nofollow" title="unsplash.com">
+            <a
+              href="https://unsplash.com"
+              rel="nofollow external"
+              title="unsplash.com"
+            >
               unsplash.com
             </a>
           </p>
@@ -491,8 +649,8 @@
         </div>
         <small>
           &copy; 2020 All rights reserved |
-          <a href="#">terms of service</a> | <a href="#">privacy policy</a
-          ><br />
+          <a href="#" rel="license">terms of service</a> |
+          <a href="#">privacy policy</a><br />
         </small>
       </footer>
     </div>
