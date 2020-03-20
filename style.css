@@ -26,8 +26,14 @@ h1 {
   margin: 0 auto;
 }
 
-.page-main {
+.news-special {
   display: flex;
+  margin-bottom: 20px;
+}
+
+.news-categories {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* page header */
@@ -206,5 +212,67 @@ h1 {
 
 .latest-news__author-link:hover {
   text-decoration: underline;
-  color: #7699a5;
+}
+
+/* news categories */
+
+.news-category {
+  margin-right: 25px;
+}
+
+.news-category:last-child {
+  margin-right: 0px;
+}
+
+.news-category__header {
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 14px;
+  border-bottom: 1px solid lightgrey;
+  margin-bottom: 20px;
+}
+
+.news-category__header a {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  color: #9bb7c2;
+}
+
+.news-category__header a:hover {
+  color: white;
+  background-color: #9bb7c2;
+}
+
+.news-category__item {
+  margin-bottom: 40px;
+}
+
+.news-category__item-title {
+  font-weight: normal;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.news-category__item-title a {
+  color: #2f4f4f;
+  text-decoration: none;
+}
+
+.news-category__item-title a:hover {
+  text-decoration: underline;
+}
+
+.news-category__item-info {
+  color: #778899;
+  font-size: 13px;
+}
+
+.news-category__author-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.news-category__author-link:hover {
+  text-decoration: underline;
 }
