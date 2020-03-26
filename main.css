@@ -120,9 +120,17 @@ h1 {
 
 .important-news__header {
   font-weight: normal;
-  color: grey;
   text-transform: uppercase;
   font-size: 14px;
+}
+
+.important-news__header a {
+  color: grey;
+  text-decoration: none;
+}
+
+.important-news__header a:hover {
+  color: tomato;
 }
 
 .important-news__item {
@@ -133,15 +141,15 @@ h1 {
   margin-bottom: 20px;
 }
 
-.important-news__item-figure {
+.important-news__figure {
   margin: 0;
 }
 
-.important-news__item-figure img {
+.important-news__figure img {
   border-radius: 4px;
 }
 
-.important-news__item-wrapper {
+.important-news__wrapper {
   background-color: rgba(255, 255, 255, 0.9);
   padding: 15px;
   position: absolute;
@@ -151,28 +159,27 @@ h1 {
   z-index: 1;
 }
 
-.important-news__item-title {
+.important-news__title {
   font-weight: normal;
   text-transform: uppercase;
   margin: 0;
 }
 
-.important-news__item-title a {
+.important-news__title a {
   text-decoration: none;
-  color: #800000;
+  color: teal;
   opacity: 1;
 }
 
-.important-news__item-title a:hover {
+.important-news__title a:hover {
   text-decoration: underline;
-  color: #7699a5;
 }
 
-.important-news__item-description {
+.important-news__description {
   color: #2f4f4f;
 }
 
-.important-news__item-info {
+.important-news__info {
   color: #2f4f4f;
   font-size: 13px;
 }
@@ -199,6 +206,15 @@ h1 {
   text-transform: uppercase;
   font-size: 14px;
   margin-bottom: 20px;
+}
+
+.latest-news__header a {
+  color: grey;
+  text-decoration: none;
+}
+
+.latest-news__header a:hover {
+  color: tomato;
 }
 
 .latest-news__item {
@@ -316,6 +332,15 @@ h1 {
   margin-bottom: 20px;
 }
 
+.featured-articles__header a {
+  color: grey;
+  text-decoration: none;
+}
+
+.featured-articles__header a:hover {
+  color: tomato;
+}
+
 .featured-articles__items {
   display: flex;
   justify-content: space-between;
@@ -377,6 +402,16 @@ h1 {
 .featured-articles__brief {
   text-align: justify;
   margin: 0;
+}
+
+.featured-articles__comments-link {
+  color: #7699a5;
+  text-decoration: none;
+  font-size: small;
+}
+
+.featured-articles__comments-link:hover {
+  text-decoration: underline;
 }
 
 /*** Footer ***/
