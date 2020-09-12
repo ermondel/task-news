@@ -1,0 +1,24 @@
+{
+  "name": "task-news",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://github.com/ermondel/task-news#readme",
+  "description": "task news",
+  "author": "ermondel",
+  "license": "CC BY-NC 4.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ermondel/task-news.git"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^4.4.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
