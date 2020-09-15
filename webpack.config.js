@@ -78,7 +78,9 @@ const jsLoaders = () => {
 const plugins = () => {
   const base = [
     new HTMLWebpackPlugin({
-      template: './public/index.html',
+      inject: 'body',
+      template: './src/index.html',
+      filename: 'index.html',
       minify: {
         collapseWhitespace: isProd,
       },
@@ -99,8 +101,7 @@ const plugins = () => {
 module.exports = {
   mode: 'development',
   entry: {
-    main: ['@babel/polyfill', './src/index.jsx'],
-    analytics: './src/analytics.js',
+    main: ['@babel/polyfill', './src/index.js'],
   },
   output: {
     filename: filename('js'),
@@ -126,16 +127,16 @@ module.exports = {
         use: cssLoaders(),
       },
       {
-        test: /\.less$/,
-        use: cssLoaders('less-loader'),
-      },
-      {
-        test: /\.s[ac]ss$/,
-        use: cssLoaders('sass-loader'),
-      },
-      {
         test: /\.(png|jpg|svg|gif)$/,
-        use: ['file-loader'],
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'assets/images/',
+            },
+          },
+        ],
       },
       {
         test: /\.(ttf|woff|woff2|eot)$/,
@@ -147,12 +148,8 @@ module.exports = {
         use: jsLoaders(),
       },
       {
-        test: /\.jsx$/,
-        exclude: /node_modules/,
-        loader: {
-          loader: 'babel-loader',
-          options: babelOptions('@babel/preset-react'),
-        },
+        test: /\.html$/,
+        use: ['html-loader'],
       },
     ],
   },
