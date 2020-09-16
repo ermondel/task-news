@@ -1,6 +1,6 @@
 {
   "name": "task-news",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "private": true,
   "homepage": "https://github.com/ermondel/task-news#readme",
   "description": "task news",
@@ -12,7 +12,8 @@
     "build": "cross-env NODE_ENV=production webpack --mode production",
     "watch": "cross-env NODE_ENV=development webpack --mode development --watch",
     "start": "cross-env NODE_ENV=development webpack-dev-server --mode development --open",
-    "stats": "webpack --json > stats/stats.json && webpack-bundle-analyzer stats/stats.json"
+    "stats": "webpack --json > stats/stats.json && webpack-bundle-analyzer stats/stats.json",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -32,6 +33,7 @@
     "eslint": "^7.9.0",
     "eslint-loader": "^4.0.2",
     "file-loader": "^6.1.0",
+    "gh-pages": "^3.1.0",
     "html-loader": "^1.3.0",
     "html-webpack-plugin": "^4.4.1",
     "mini-css-extract-plugin": "^0.11.2",
